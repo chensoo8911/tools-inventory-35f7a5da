@@ -45,9 +45,9 @@
 | MCP | 類型 | 狀態 |
 |---|---|---|
 | **claude.ai Trimble SketchUp** | claude.ai connector | Connected |
-| **claude.ai Google Drive** | claude.ai connector | Connected |
+| **claude.ai Google Drive** | claude.ai connector | Needs auth |
 | **claude.ai Slack** | claude.ai connector | Needs auth |
-| **claude.ai Gmail** | claude.ai connector | Connected |
+| **claude.ai Gmail** | claude.ai connector | Needs auth |
 | **claude.ai Google Calendar** | claude.ai connector | Connected |
 | **plugin** | 本機 server | Connected |
 | **illustrator** | 本機 server | Connected |
