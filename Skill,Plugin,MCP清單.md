@@ -49,7 +49,7 @@
 | **claude.ai Slack** | claude.ai connector | Needs auth |
 | **claude.ai Gmail** | claude.ai connector | Needs auth |
 | **claude.ai Google Calendar** | claude.ai connector | Connected |
-| **plugin** | 本機 server | Connected |
+| **plugin:figma:figma** | plugin 內建 | Connected |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
 
