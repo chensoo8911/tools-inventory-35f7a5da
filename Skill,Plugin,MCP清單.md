@@ -3,12 +3,13 @@
 > 盤點日期：2026-07-11　｜　由 local-inventory skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/tools-inventory-35f7a5da/
 
-## 🔑 觸發詞速查（13 個觸發詞 · 9 個 skill）
+## 🔑 觸發詞速查（14 個觸發詞 · 10 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
 | `claude通知音效` | **claude-notify-sounds** |
 | `發版` | **command-push** |
+| `展開SVG` | **figma-svg-expand** |
 | `列工具清單` / `更新工具清單` | **local-inventory** |
 | `大事SOP` | **loop-sop** |
 | `快照全md` | **md-snapshot** |
@@ -17,12 +18,13 @@
 | `大團出圖` | **tnbt-export** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` | **uiai-learn** |
 
-## Skill（本機自建，共 9 個）
+## Skill（本機自建，共 10 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
 | **claude-notify-sounds** | claude通知音效 | 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook |
 | **command-push** | 發版 | 個人維護 repo 的發版自動化（CHANGELOG→commit→tag→push→Release 五步） |
+| **figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
 | **local-inventory** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **loop-sop** | 大事SOP | 大事／重複性工作的 Loop Engineering（下單卡＋自跑循環＋停止條件＋護欄） |
 | **md-snapshot** | 快照全md | 把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份 |
@@ -44,11 +46,11 @@
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
-| **claude.ai Trimble SketchUp** | claude.ai connector | Connected |
-| **claude.ai Google Drive** | claude.ai connector | Needs auth |
-| **claude.ai Slack** | claude.ai connector | Needs auth |
-| **claude.ai Gmail** | claude.ai connector | Needs auth |
-| **claude.ai Google Calendar** | claude.ai connector | Connected |
+| **claude.ai Trimble SketchUp** | claude.ai connector | — |
+| **claude.ai Google Drive** | claude.ai connector | — |
+| **claude.ai Slack** | claude.ai connector | — |
+| **claude.ai Gmail** | claude.ai connector | — |
+| **claude.ai Google Calendar** | claude.ai connector | — |
 | **plugin:figma:figma** | plugin 內建 | Connected |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
