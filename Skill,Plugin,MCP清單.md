@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-11　｜　由 local-inventory skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-13　｜　由 local-inventory skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/tools-inventory-35f7a5da/
 
-## 🔑 觸發詞速查（14 個觸發詞 · 10 個 skill）
+## 🔑 觸發詞速查（15 個觸發詞 · 10 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -16,7 +16,7 @@
 | `加入ob` / `新增ob` | **obsidian-inbox** |
 | `做名片` | **sv-card** |
 | `大團出圖` | **tnbt-export** |
-| `加入詞彙` / `記知識庫` / `整理學習庫` | **uiai-learn** |
+| `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
 
 ## Skill（本機自建，共 10 個）
 
@@ -31,7 +31,7 @@
 | **obsidian-inbox** | 加入ob / 新增ob | 把當下內容存進使用者的 Obsidian 收件匣 |
 | **sv-card** | 做名片 | 公司名片自動化製作 |
 | **tnbt-export** | 大團出圖 | 活動視覺批次出圖（Figma→本地交付夾） |
-| **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 | UIAI 學習記錄工作流 |
+| **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 
 ## Plugin（已啟用，共 4 個）
 
