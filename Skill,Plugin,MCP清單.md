@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-14　｜　由 local-inventory skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-14　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/tools-inventory-35f7a5da/
 
 ## 🔑 觸發詞速查（20 個觸發詞 · 11 個 skill）
