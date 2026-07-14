@@ -15,7 +15,7 @@
 | `加入ob` / `新增ob` | **obsidian-inbox** |
 | `做名片` | **sv-card** |
 | `大團出圖` | **tnbt-export** |
-| `列工具清單` / `更新工具清單` | **local-inventory** |
+| `列工具清單` / `更新工具清單` | **toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
 | `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **whoami** |
 
@@ -31,7 +31,7 @@
 | **obsidian-inbox** | 加入ob / 新增ob | 把當下內容存進使用者的 Obsidian 收件匣 |
 | **sv-card** | 做名片 | 公司名片自動化製作 |
 | **tnbt-export** | 大團出圖 | 活動視覺批次出圖（Figma→本地交付夾） |
-| **local-inventory** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
+| **toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 | **whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 
