@@ -2,12 +2,12 @@
 
 我的 Claude Code 本機環境盤點：Skill / Plugin / MCP Server / Agent 一覽。
 
-- 📄 網頁版：https://chensoo8911.github.io/tools-inventory-35f7a5da/
+- 📄 網頁版：https://chensoo8911.github.io/my-claude-toollist/
 - 📝 markdown 版：[Skill,Plugin,MCP清單.md](Skill,Plugin,MCP清單.md)
 
 ## 這是什麼
 
-由本機的 `local-inventory` skill 自動掃描產生並推送，每次執行整頁覆蓋＝內容永遠是最新狀態。頁面掛 `noindex`，不進搜尋引擎索引。
+由本機的 `toollist` skill 自動掃描產生並推送，每次執行整頁覆蓋＝內容永遠是最新狀態。頁面掛 `noindex`，不進搜尋引擎索引。
 
 ## 安全說明
 
