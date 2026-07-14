@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-13　｜　由 local-inventory skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-14　｜　由 local-inventory skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/tools-inventory-35f7a5da/
 
-## 🔑 觸發詞速查（15 個觸發詞 · 10 個 skill）
+## 🔑 觸發詞速查（20 個觸發詞 · 11 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -17,8 +17,9 @@
 | `做名片` | **sv-card** |
 | `大團出圖` | **tnbt-export** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
+| `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **whoami** |
 
-## Skill（本機自建，共 10 個）
+## Skill（本機自建，共 11 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -32,6 +33,7 @@
 | **sv-card** | 做名片 | 公司名片自動化製作 |
 | **tnbt-export** | 大團出圖 | 活動視覺批次出圖（Figma→本地交付夾） |
 | **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
+| **whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 
 ## Plugin（已啟用，共 4 個）
 
