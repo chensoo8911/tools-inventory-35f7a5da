@@ -10,12 +10,12 @@
 | `claude通知音效` | **claude-notify-sounds** |
 | `發版` | **command-push** |
 | `展開SVG` | **figma-svg-expand** |
-| `列工具清單` / `更新工具清單` | **local-inventory** |
 | `大事SOP` | **loop-sop** |
 | `快照全md` | **md-snapshot** |
 | `加入ob` / `新增ob` | **obsidian-inbox** |
 | `做名片` | **sv-card** |
 | `大團出圖` | **tnbt-export** |
+| `列工具清單` / `更新工具清單` | **local-inventory** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
 | `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **whoami** |
 
@@ -26,12 +26,12 @@
 | **claude-notify-sounds** | claude通知音效 | 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook |
 | **command-push** | 發版 | 個人維護 repo 的發版自動化（CHANGELOG→commit→tag→push→Release 五步） |
 | **figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
-| **local-inventory** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **loop-sop** | 大事SOP | 大事／重複性工作的 Loop Engineering（下單卡＋自跑循環＋停止條件＋護欄） |
 | **md-snapshot** | 快照全md | 把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份 |
 | **obsidian-inbox** | 加入ob / 新增ob | 把當下內容存進使用者的 Obsidian 收件匣 |
 | **sv-card** | 做名片 | 公司名片自動化製作 |
 | **tnbt-export** | 大團出圖 | 活動視覺批次出圖（Figma→本地交付夾） |
+| **local-inventory** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 | **whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 
