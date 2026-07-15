@@ -3,13 +3,13 @@
 > 盤點日期：2026-07-15　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist/
 
-## 🔑 觸發詞速查（28 個觸發詞 · 11 個 skill）
+## 🔑 觸發詞速查（24 個觸發詞 · 11 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
 | `展開SVG` | **claude-figma-svg-expand** |
 | `快照全md` | **claude-md-snapshot** |
-| `claude通知音效` / `裝 Claude 音效` / `設定 Claude 音效` / `claude sounds` / `移除 Claude 音效` | **claude-notify-sounds** |
+| `claude通知音效` | **claude-notify-sounds** |
 | `加入ob` / `新增ob` | **claude-obsidian-inbox** |
 | `大事SOP` / `自己跑完複雜任務` / `下單卡` / `套用工作制度` / `①多步驟②可檢查③需迭代` | **claude-ops** |
 | `大團出圖` | **claude-tnbt-export** |
@@ -25,7 +25,7 @@
 |---|---|---|
 | **claude-figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
 | **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份 |
-| **claude-notify-sounds** | claude通知音效 / 裝 Claude 音效 / 設定 Claude 音效 / claude sounds / 移除… | 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook |
+| **claude-notify-sounds** | claude通知音效 | 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook |
 | **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存進使用者的 Obsidian 收件匣 |
 | **claude-ops** | 大事SOP / 自己跑完複雜任務 / 下單卡 / 套用工作制度 / ①多步驟②可檢查③需迭代 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
 | **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
