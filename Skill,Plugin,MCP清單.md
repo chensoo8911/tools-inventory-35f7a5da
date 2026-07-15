@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-14　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-15　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist/
 
 ## 🔑 觸發詞速查（20 個觸發詞 · 11 個 skill）
@@ -8,6 +8,7 @@
 | 觸發詞 | 對應 Skill |
 |---|---|
 | `claude通知音效` | **claude-notify-sounds** |
+| `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **claude-whoami** |
 | `發版` | **command-push** |
 | `展開SVG` | **figma-svg-expand** |
 | `大事SOP` | **loop-sop** |
@@ -17,13 +18,13 @@
 | `大團出圖` | **tnbt-export** |
 | `列工具清單` / `更新工具清單` | **toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
-| `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **whoami** |
 
 ## Skill（本機自建，共 11 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
 | **claude-notify-sounds** | claude通知音效 | 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook |
+| **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **command-push** | 發版 | 個人維護 repo 的發版自動化（CHANGELOG→commit→tag→push→Release 五步） |
 | **figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
 | **loop-sop** | 大事SOP | 大事／重複性工作的 Loop Engineering（下單卡＋自跑循環＋停止條件＋護欄） |
@@ -33,7 +34,6 @@
 | **tnbt-export** | 大團出圖 | 活動視覺批次出圖（Figma→本地交付夾） |
 | **toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
-| **whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 
 ## Plugin（已啟用，共 4 個）
 
@@ -44,16 +44,14 @@
 | **obsidian** | 1.0.1 | obsidian-skills |
 | **ui-ux-pro-max** | 2.5.0 | ui-ux-pro-max-skill |
 
-## MCP Server（共 8 個）
+## MCP Server（共 6 個）
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
-| **claude.ai Trimble SketchUp** | claude.ai connector | — |
-| **claude.ai Google Drive** | claude.ai connector | — |
 | **claude.ai Slack** | claude.ai connector | — |
 | **claude.ai Gmail** | claude.ai connector | — |
-| **claude.ai Google Calendar** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Connected |
+| **claude.ai Notion** | claude.ai connector | — |
+| **plugin:figma:figma** | plugin 內建 | Needs auth |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
 
