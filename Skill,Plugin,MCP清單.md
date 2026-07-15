@@ -1,9 +1,9 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-15　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-16　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist/
 
-## 🔑 觸發詞速查（24 個觸發詞 · 11 個 skill）
+## 🔑 觸發詞速查（26 個觸發詞 · 12 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -14,12 +14,13 @@
 | `加入ob` / `新增ob` | **claude-obsidian-inbox** |
 | `大事SOP` / `自己跑完複雜任務` / `下單卡` / `套用工作制度` / `①多步驟②可檢查③需迭代` | **claude-ops** |
 | `大團出圖` | **claude-tnbt-export** |
+| `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
 | `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **claude-whoami** |
 | `做名片` | **sv-card** |
 | `列工具清單` / `更新工具清單` | **toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
 
-## Skill（本機自建，共 11 個）
+## Skill（本機自建，共 12 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -30,6 +31,7 @@
 | **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存進使用者的 Obsidian 收件匣 |
 | **claude-ops** | 大事SOP / 自己跑完複雜任務 / 下單卡 / 套用工作制度 / ①多步驟②可檢查③需迭代 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
 | **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
+| **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境：小G（Gemini 量產苦力）＋小L（NotebookLM 文件圖書館員）＋Cla |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **sv-card** | 做名片 | 公司名片自動化製作 |
 | **toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
