@@ -51,6 +51,11 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
   <div class="cdesc">把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG。觸發詞：「展開SVG」。 作法：把硬陰影（drop shadow）烤成實體位移的幾何、文字外框化，讓匯出的 SVG 完全沒有 &lt;filter&gt;、feOffset、&lt;text&gt;——避免用 &lt;img&gt; 內嵌到 HTML 時陰影糊掉、多顆互相干</div>
 </div>
 <div class="card">
+  <div class="cname">claude-md-snapshot</div>
+  <div class="chips"><span class="chip acc">快照全md</span></div>
+  <div class="cdesc">把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份。觸發詞：「快照全md」。用 cp 複製（正本不動），存到快照資料夾，檔名帶當天日期。</div>
+</div>
+<div class="card">
   <div class="cname">claude-notify-sounds</div>
   <div class="chips"><span class="chip acc">claude通知音效</span></div>
   <div class="cdesc">在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook。讓 Claude 在「換你了（這輪結束）」「需要你回應（權限等待）」兩個時機播放系統音效，不跳任何桌面通知。觸發詞：「claude通知音效」。僅支援 macOS，需要 jq。</div>
@@ -74,11 +79,6 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
   <div class="cname">command-push</div>
   <div class="chips"><span class="chip acc">發版</span></div>
   <div class="cdesc">個人維護 repo 的發版自動化（CHANGELOG→commit→tag→push→Release 五步）。觸發詞：「發版」。</div>
-</div>
-<div class="card">
-  <div class="cname">md-snapshot</div>
-  <div class="chips"><span class="chip acc">快照全md</span></div>
-  <div class="cdesc">把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份。觸發詞：「快照全md」。用 cp 複製（正本不動），存到 ~/Claude/全域md紀錄/，檔名帶當天日期。</div>
 </div>
 <div class="card">
   <div class="cname">obsidian-inbox</div>
