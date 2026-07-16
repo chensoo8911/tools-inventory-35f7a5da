@@ -48,7 +48,7 @@
 | **obsidian** | 1.0.1 | obsidian-skills |
 | **ui-ux-pro-max** | 2.5.0 | ui-ux-pro-max-skill |
 
-## MCP Server（共 6 個）
+## MCP Server（共 7 個）
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
@@ -58,6 +58,7 @@
 | **plugin:figma:figma** | plugin 內建 | Connected |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
+| **firecrawl** | 本機 server | Connected |
 
 ## Agent（自製 2 個＋內建 6 個）
 
