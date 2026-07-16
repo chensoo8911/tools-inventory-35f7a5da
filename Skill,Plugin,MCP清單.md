@@ -1,6 +1,6 @@
 # 本機 Claude 工具清單（Skill / Plugin / MCP / Agent）
 
-> 盤點日期：2026-07-16　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
+> 盤點日期：2026-07-17　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist/
 
 ## 🔑 觸發詞速查（28 個觸發詞 · 13 個 skill）
@@ -84,13 +84,14 @@
 | **claude-code-guide** | 內建 | Claude Code／API 問題專家 | — |
 | **statusline-setup** | 內建 | 設定終端機狀態列專用 | — |
 
-## 終端機工具（三劍客，共 3 項）
+## 終端機工具（共 4 項）
 
 | 工具 | 呼叫方式 | 用途 |
 |---|---|---|
 | **小G** | 小G 問題 ／ 小G：問題 | 量產苦力（Gemini）：草稿、翻譯、清單擴寫、格式轉換；產出自動落檔 |
 | **小L** | 小L 加入／摘要／：問題 | 文件圖書館員（NotebookLM）：吞 PDF／網址，給有出處的問答與規格摘要 |
 | **審查協議** | 對話打 .  | Claude 讀雜工落檔做漏洞審查＋修正定稿（三劍客的主廚環節） |
+| **mole** | mo clean（預覽加 --dry-run） | Mac 深度清快取／釋放磁碟空間（Homebrew 安裝）；純手動、無自動排程 |
 
 ---
 > 🔒 本清單只含工具名稱與用途，不含任何密鑰、token 或 API 串接資訊。
