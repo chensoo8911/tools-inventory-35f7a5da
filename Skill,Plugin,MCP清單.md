@@ -21,10 +21,11 @@
 | `列工具清單` / `更新工具清單` | **toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
 
-## Skill（本機自建，共 13 個）
+## Skill（本機自建，共 15 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
+| **apple-hig-expert** | — | "Audits and designs iOS/macOS/watchOS/visionOS interfaces ag |
 | **claude-command-push** | 發版 | git repo 發版自動化 |
 | **claude-figma-svg-expand** | 展開SVG | 把 Figma 帶有 drop-shadow / 文字的 SVG「完全展開」成純幾何、可在 HTML 穩定顯示的 SVG |
 | **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份 |
@@ -36,6 +37,7 @@
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境：小G（Gemini 量產苦力）＋小L（NotebookLM 文件圖書館員）＋Cla |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
+| **"research-summarizer"** | — | "Structured research summarization agent skill for non-dev u |
 | **toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 
@@ -60,11 +62,20 @@
 | **playwright** | 本機 server | Connected |
 | **firecrawl** | 本機 server | Connected |
 
-## Agent（自製 2 個＋內建 6 個）
+## Agent（自製 11 個＋內建 6 個）
 
 | Agent | 來源 | 用途 | 工具權限 |
 |---|---|---|---|
+| **competitive-analyst** | 自製 | "Use when you need to analyze direct and indirect competitor | Read, Grep, Glob, WebFetch, WebSearch |
+| **content-marketer** | 自製 | "Use this agent when you need to develop comprehensive conte | Read, Write, Edit, Glob, Grep, WebFetch, WebSearch |
+| **content-quality-editor** | 自製 | "Use this agent before publishing any AI-generated content — | Read, Write, Edit, Bash |
+| **market-researcher** | 自製 | "Use this agent when you need to analyze markets, understand | Read, Grep, Glob, WebFetch, WebSearch |
+| **research-analyst** | 自製 | "Use this agent when you need comprehensive research across  | Read, Grep, Glob, WebFetch, WebSearch |
+| **search-specialist** | 自製 | "Use when you need to find specific information across multi | Read, Grep, Glob, WebFetch, WebSearch |
+| **trend-analyst** | 自製 | "Use when analyzing emerging patterns, predicting industry s | Read, Grep, Glob, WebFetch, WebSearch |
+| **ui-designer** | 自製 | "Use this agent when designing visual interfaces, creating d | Read, Write, Edit, Bash, Glob, Grep |
 | **uiai-recorder** | 自製 | UIAI 學習庫記錄員 | Read, Edit, Write, Glob, Grep, Bash |
+| **ux-researcher** | 自製 | "Use this agent when you need to conduct user research, anal | Read, Grep, Glob, WebFetch, WebSearch |
 | **verifier** | 自製 | Fresh-context 驗收員（Maker-Checker 的 Checker） | Read, Glob, Grep, Bash |
 | **general-purpose** | 內建 | 萬用型：研究、找程式碼、多步驟雜活 | — |
 | **Explore** | 內建 | 唯讀搜索型：大範圍掃檔案，只回結論 | — |
