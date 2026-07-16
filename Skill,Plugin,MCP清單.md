@@ -3,7 +3,7 @@
 > 盤點日期：2026-07-16　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist/
 
-## 🔑 觸發詞速查（28 個觸發詞 · 13 個 skill）
+## 🔑 觸發詞速查（27 個觸發詞 · 12 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -17,11 +17,10 @@
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
 | `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **claude-whoami** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
-| `做名片` | **sv-card** |
 | `列工具清單` / `更新工具清單` | **toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
 
-## Skill（本機自建，共 13 個）
+## Skill（本機自建，共 12 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -35,7 +34,6 @@
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境：小G（Gemini 量產苦力）＋小L（NotebookLM 文件圖書館員）＋Cla |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
-| **sv-card** | 做名片 | 公司名片自動化製作 |
 | **toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 
