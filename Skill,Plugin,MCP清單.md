@@ -19,7 +19,7 @@
 | `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **claude-whoami** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
-| `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **uiai-learn** |
+| `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
 
 ## Skill（本機自建，共 15 個）
 
@@ -38,8 +38,8 @@
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
+| **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 | **"research-summarizer"** | — | "Structured research summarization agent skill for non-dev u |
-| **uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 
 ## Plugin（已啟用，共 4 個）
 
