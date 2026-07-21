@@ -2,7 +2,7 @@
 
 我的 Claude Code 本機環境盤點：Skill / Plugin / MCP Server / Agent 一覽。
 
-- 📄 網頁版：https://chensoo8911.github.io/my-claude-toollist/
+- 📄 網頁版：https://chensoo8911.github.io/my-claude-toollist-html/
 - 📝 markdown 版：[Skill,Plugin,MCP清單.md](Skill,Plugin,MCP清單.md)
 
 ## 這是什麼
