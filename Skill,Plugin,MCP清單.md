@@ -50,10 +50,11 @@
 | **obsidian** | 1.0.1 | obsidian-skills |
 | **ui-ux-pro-max** | 2.5.0 | ui-ux-pro-max-skill |
 
-## MCP Server（共 7 個）
+## MCP Server（共 8 個）
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
+| **claude.ai Google Drive** | claude.ai connector | — |
 | **claude.ai Slack** | claude.ai connector | — |
 | **claude.ai Gmail** | claude.ai connector | — |
 | **claude.ai Notion** | claude.ai connector | — |
