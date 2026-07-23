@@ -3,7 +3,7 @@
 > 盤點日期：2026-07-23　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（28 個觸發詞 · 13 個 skill）
+## 🔑 觸發詞速查（24 個觸發詞 · 13 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -12,11 +12,11 @@
 | `快照全md` | **claude-md-snapshot** |
 | `claude通知音效` | **claude-notify-sounds** |
 | `加入ob` / `新增ob` | **claude-obsidian-inbox** |
-| `大事SOP` / `自己跑完複雜任務` / `下單卡` / `套用工作制度` / `①多步驟②可檢查③需迭代` | **claude-ops** |
+| `大事SOP` / `自己跑完複雜任務` / `下單卡` / `①多步驟②可檢查③需迭代` | **claude-ops** |
 | `做名片` | **claude-sv-card** |
 | `大團出圖` | **claude-tnbt-export** |
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
-| `我誰` / `幫我寫 CLAUDE.md` / `產生 instructions` / `設定一個角色／助理` / `whoami` | **claude-whoami** |
+| `我誰` / `幫我寫 CLAUDE.md` | **claude-whoami** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
@@ -31,11 +31,11 @@
 | **claude-md-snapshot** | 快照全md | 把全域 CLAUDE.md 另存一份日期快照，作為大改前的歷史備份 |
 | **claude-notify-sounds** | claude通知音效 | 在 macOS 安裝 / 設定 / 移除 Claude Code 的「純音效」hook |
 | **claude-obsidian-inbox** | 加入ob / 新增ob | 把當下內容存進使用者的 Obsidian 收件匣 |
-| **claude-ops** | 大事SOP / 自己跑完複雜任務 / 下單卡 / 套用工作制度 / ①多步驟②可檢查③需迭代 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
+| **claude-ops** | 大事SOP / 自己跑完複雜任務 / 下單卡 / ①多步驟②可檢查③需迭代 | 一套讓 AI 助理「自己跑完複雜任務」的工作制度 |
 | **claude-sv-card** | 做名片 | StreetVoice 街聲名片自動化製作（TW 街聲版＋中子 BVI 版＋台灣中子版三種全自動；經典復刻款BVI 為第 |
 | **claude-tnbt-export** | 大團出圖 | TNBT 大團（開發場次）從 Figma 批次存圖到本地交付夾的標準流程 |
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境：小G（Gemini 量產苦力）＋小L（NotebookLM 文件圖書館員）＋Cla |
-| **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md / 產生 instructions / 設定一個角色／助理 / whoami | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
+| **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
@@ -50,15 +50,16 @@
 | **obsidian** | 1.0.1 | obsidian-skills |
 | **ui-ux-pro-max** | 2.5.0 | ui-ux-pro-max-skill |
 
-## MCP Server（共 8 個）
+## MCP Server（共 9 個）
 
 | MCP | 類型 | 狀態 |
 |---|---|---|
+| **claude.ai Trimble SketchUp** | claude.ai connector | — |
 | **claude.ai Google Drive** | claude.ai connector | — |
 | **claude.ai Slack** | claude.ai connector | — |
 | **claude.ai Gmail** | claude.ai connector | — |
-| **claude.ai Notion** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Connected |
+| **claude.ai Google Calendar** | claude.ai connector | — |
+| **plugin:figma:figma** | plugin 內建 | Needs auth |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
 | **firecrawl** | 本機 server | Connected |
