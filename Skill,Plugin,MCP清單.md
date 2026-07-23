@@ -64,7 +64,7 @@
 | **playwright** | 本機 server | Connected |
 | **firecrawl** | 本機 server | Connected |
 
-## Agent（自製 11 個＋內建 6 個）
+## Agent（自製 12 個＋內建 6 個）
 
 | Agent | 來源 | 用途 | 工具權限 |
 |---|---|---|---|
@@ -72,6 +72,7 @@
 | **content-marketer** | 自製 | "Use this agent when you need to develop comprehensive conte | Read, Write, Edit, Glob, Grep, WebFetch, WebSearch |
 | **content-quality-editor** | 自製 | "Use this agent before publishing any AI-generated content — | Read, Write, Edit, Bash |
 | **market-researcher** | 自製 | "Use this agent when you need to analyze markets, understand | Read, Grep, Glob, WebFetch, WebSearch |
+| **publish-safety-checker** | 自製 | Fresh-context 發版安檢員 | Read, Glob, Grep, Bash |
 | **research-analyst** | 自製 | "Use this agent when you need comprehensive research across  | Read, Grep, Glob, WebFetch, WebSearch |
 | **search-specialist** | 自製 | "Use when you need to find specific information across multi | Read, Grep, Glob, WebFetch, WebSearch |
 | **trend-analyst** | 自製 | "Use when analyzing emerging patterns, predicting industry s | Read, Grep, Glob, WebFetch, WebSearch |
