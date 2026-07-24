@@ -22,7 +22,7 @@
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
 
-## Skill（本機自建，共 16 個）
+## Skill（本機自建，共 15 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -41,7 +41,6 @@
 | **my-claude-self-audit** | 制度健檢 / 規則體檢 | 制度健檢顧問（Claude 進階玩家視角） |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
-| **"research-summarizer"** | — | "Structured research summarization agent skill for non-dev u |
 
 ## Plugin（已啟用，共 4 個）
 
