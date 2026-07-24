@@ -3,7 +3,7 @@
 > 盤點日期：2026-07-24　｜　由 toollist skill 自動產生（每次覆蓋＝永遠最新）
 > 公開網頁：https://chensoo8911.github.io/my-claude-toollist-html/
 
-## 🔑 觸發詞速查（24 個觸發詞 · 13 個 skill）
+## 🔑 觸發詞速查（26 個觸發詞 · 14 個 skill）
 
 | 觸發詞 | 對應 Skill |
 |---|---|
@@ -18,10 +18,11 @@
 | `部署三劍客` / `裝三劍客` | **claude-triple-brain** |
 | `我誰` / `幫我寫 CLAUDE.md` | **claude-whoami** |
 | `how do I do X` / `find a skill for X` | **find-skills**（推測） |
+| `制度健檢` / `規則體檢` | **my-claude-self-audit** |
 | `列工具清單` / `更新工具清單` | **my-claude-toollist** |
 | `加入詞彙` / `記知識庫` / `整理學習庫` / `X 是什麼？` | **my-claude-uiai-learn** |
 
-## Skill（本機自建，共 15 個）
+## Skill（本機自建，共 16 個）
 
 | Skill | 觸發詞 | 用途 |
 |---|---|---|
@@ -37,6 +38,7 @@
 | **claude-triple-brain** | 部署三劍客 / 裝三劍客 | 部署「三劍客」終端機 AI 協作環境：小G（Gemini 量產苦力）＋小L（NotebookLM 文件圖書館員）＋Cla |
 | **claude-whoami** | 我誰 / 幫我寫 CLAUDE.md | 把使用者一句話的「你是誰＋規則」，轉成一份結構完整、可直接當作角色設定的 CLAUDE.md，存進目前資料夾 |
 | **find-skills** | how do I do X / find a skill for X | Helps users discover and install agent skills when they ask  |
+| **my-claude-self-audit** | 制度健檢 / 規則體檢 | 制度健檢顧問（Claude 進階玩家視角） |
 | **my-claude-toollist** | 列工具清單 / 更新工具清單 | 盤點本機 Claude 環境並同步清單 |
 | **my-claude-uiai-learn** | 加入詞彙 / 記知識庫 / 整理學習庫 / X 是什麼？ | UIAI 學習記錄工作流 |
 | **"research-summarizer"** | — | "Structured research summarization agent skill for non-dev u |
@@ -59,12 +61,12 @@
 | **claude.ai Slack** | claude.ai connector | — |
 | **claude.ai Gmail** | claude.ai connector | — |
 | **claude.ai Google Calendar** | claude.ai connector | — |
-| **plugin:figma:figma** | plugin 內建 | Needs auth |
+| **plugin:figma:figma** | plugin 內建 | Connected |
 | **illustrator** | 本機 server | Connected |
 | **playwright** | 本機 server | Connected |
 | **firecrawl** | 本機 server | Connected |
 
-## Agent（自製 12 個＋內建 6 個）
+## Agent（自製 13 個＋內建 6 個）
 
 | Agent | 來源 | 用途 | 工具權限 |
 |---|---|---|---|
@@ -75,6 +77,7 @@
 | **publish-safety-checker** | 自製 | Fresh-context 發版安檢員 | Read, Glob, Grep, Bash |
 | **research-analyst** | 自製 | "Use this agent when you need comprehensive research across  | Read, Grep, Glob, WebFetch, WebSearch |
 | **search-specialist** | 自製 | "Use when you need to find specific information across multi | Read, Grep, Glob, WebFetch, WebSearch |
+| **system-critic** | 自製 | Fresh-context 制度質疑者（唱反調的那個） | Read, Glob, Grep, Bash, WebSearch, WebFetch |
 | **trend-analyst** | 自製 | "Use when analyzing emerging patterns, predicting industry s | Read, Grep, Glob, WebFetch, WebSearch |
 | **ui-designer** | 自製 | "Use this agent when designing visual interfaces, creating d | Read, Write, Edit, Bash, Glob, Grep |
 | **uiai-recorder** | 自製 | UIAI 學習庫記錄員 | Read, Edit, Write, Glob, Grep, Bash |

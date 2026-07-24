@@ -43,7 +43,7 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
   <div class="meta">🔒 僅含工具名稱與用途，不含任何密鑰或 API 串接資訊</div>
 </header>
 
-<h2>Skill <span class="count">本機自建 · 15 個</span></h2>
+<h2>Skill <span class="count">本機自建 · 16 個</span></h2>
 <div class="grid">
 <div class="card">
   <div class="cname">apple-hig-expert</div>
@@ -106,6 +106,11 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
   <div class="cdesc">Helps users discover and install agent skills when they ask questions like &quot;how do I do X&quot;, &quot;find a skill for X&quot;, &quot;is there a skill that can...&quot;, or express interest in extending c</div>
 </div>
 <div class="card">
+  <div class="cname">my-claude-self-audit</div>
+  <div class="chips"><span class="chip acc">制度健檢</span><span class="chip acc">規則體檢</span></div>
+  <div class="cdesc">制度健檢顧問（Claude 進階玩家視角）。觸發詞：「制度健檢」「規則體檢」。以資深工程師顧問角度質疑使用者的全域規則制度（ops／skills／agents／plugins／CLAUDE.md），找出「其實不需要存在」的、可被開源現成更強方案取代的、或該優化的配置，並上網比對替代品。原則：好搬家、好維護、輕量、功能全面。每週一 launchd 會先跑機械掃</div>
+</div>
+<div class="card">
   <div class="cname">my-claude-toollist</div>
   <div class="chips"><span class="chip acc">列工具清單</span><span class="chip acc">更新工具清單</span></div>
   <div class="cdesc">盤點本機 Claude 環境並同步清單。觸發詞：「列工具清單」「更新工具清單」。掃描本機 skill / plugin / MCP server，更新 markdown 清單並產生 HTML 網頁、推送到 GitHub Pages（難猜網址，僅供自用）。每次執行都覆蓋＝永遠是最新狀態。</div>
@@ -135,7 +140,7 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
 </table>
 </div>
 
-<h2>Agent <span class="count">自製 12 個 · 內建 6 個</span></h2>
+<h2>Agent <span class="count">自製 13 個 · 內建 6 個</span></h2>
 <div class="tblwrap">
 <table>
 <thead><tr><th>Agent</th><th>來源</th><th>用途</th><th>工具權限</th></tr></thead>
@@ -147,6 +152,7 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
 <tr><td class="mono">publish-safety-checker</td><td><span class="badge ok">自製</span></td><td>Fresh-context 發版安檢員</td><td class="mono" style="font-weight:400;font-size:12px">Read, Glob, Grep, Bash</td></tr>
 <tr><td class="mono">research-analyst</td><td><span class="badge ok">自製</span></td><td>&quot;Use this agent when you need comprehensive research across multiple sources wit</td><td class="mono" style="font-weight:400;font-size:12px">Read, Grep, Glob, WebFetch, WebSearch</td></tr>
 <tr><td class="mono">search-specialist</td><td><span class="badge ok">自製</span></td><td>&quot;Use when you need to find specific information across multiple sources using ad</td><td class="mono" style="font-weight:400;font-size:12px">Read, Grep, Glob, WebFetch, WebSearch</td></tr>
+<tr><td class="mono">system-critic</td><td><span class="badge ok">自製</span></td><td>Fresh-context 制度質疑者（唱反調的那個）</td><td class="mono" style="font-weight:400;font-size:12px">Read, Glob, Grep, Bash, WebSearch, WebFetch</td></tr>
 <tr><td class="mono">trend-analyst</td><td><span class="badge ok">自製</span></td><td>&quot;Use when analyzing emerging patterns, predicting industry shifts, or developing</td><td class="mono" style="font-weight:400;font-size:12px">Read, Grep, Glob, WebFetch, WebSearch</td></tr>
 <tr><td class="mono">ui-designer</td><td><span class="badge ok">自製</span></td><td>&quot;Use this agent when designing visual interfaces, creating design systems, build</td><td class="mono" style="font-weight:400;font-size:12px">Read, Write, Edit, Bash, Glob, Grep</td></tr>
 <tr><td class="mono">uiai-recorder</td><td><span class="badge ok">自製</span></td><td>UIAI 學習庫記錄員</td><td class="mono" style="font-weight:400;font-size:12px">Read, Edit, Write, Glob, Grep, Bash</td></tr>
@@ -172,7 +178,7 @@ footer{margin-top:48px;color:var(--sub);font-size:12px;border-top:1px solid var(
 <tr><td class="mono">claude.ai Slack</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
 <tr><td class="mono">claude.ai Gmail</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
 <tr><td class="mono">claude.ai Google Calendar</td><td>claude.ai connector</td><td><span class="badge ">—</span></td></tr>
-<tr><td class="mono">plugin:figma:figma</td><td>plugin 內建</td><td><span class="badge warn">Needs auth</span></td></tr>
+<tr><td class="mono">plugin:figma:figma</td><td>plugin 內建</td><td><span class="badge ok">Connected</span></td></tr>
 <tr><td class="mono">illustrator</td><td>本機 server</td><td><span class="badge ok">Connected</span></td></tr>
 <tr><td class="mono">playwright</td><td>本機 server</td><td><span class="badge ok">Connected</span></td></tr>
 <tr><td class="mono">firecrawl</td><td>本機 server</td><td><span class="badge ok">Connected</span></td></tr>
